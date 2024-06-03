@@ -6,3 +6,29 @@ h1 {
     color: white;
     text-align: center;
 }
+
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Make the box extend the entire left and right of the screen */
+    height: 200px;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: limegreen; /* Change the background color to lime green */
+    cursor: pointer; /* Make the entire box clickable */
+}
+
+#file-upload {
+    display: none;
+}
+
+.upload-container label {
+    width: 100%; /* Make the label extend the entire width of the box */
+    height: 100%; /* Make the label extend the entire height of the box */
+    display: flex; /* Use flexbox to center the text in the label */
+    justify-content: center;
+    align-items: center;
+}
